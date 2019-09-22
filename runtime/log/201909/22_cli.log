@@ -1,0 +1,191 @@
+[2019-09-22T17:14:12+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T17:14:12+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T17:14:12+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T17:14:12+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T17:14:12+08:00][ info ] [ DB ] INIT mysql
+info
+[2019-09-22T17:14:12+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.174153s ] mysql:host=llzlovesh.top;dbname=test;charset=utf8
+sql
+[2019-09-22T17:14:12+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `daka_holiday` [ RunTime:0.099845s ]
+sql
+[2019-09-22T17:14:12+08:00][ sql ] [ SQL ] SELECT `holiday` FROM `daka_holiday` WHERE  `request_date` = '2019-09' [ RunTime:0.099383s ]
+sql
+[2019-09-22T17:14:12+08:00][ error ] [8]Undefined index: status[/Users/liuluzheng/PhpstormProjects/tp5.1/application/index/service/DaKaService.php:62]
+error
+[2019-09-22T17:15:00+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T17:15:00+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T17:15:00+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T17:15:00+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T17:15:00+08:00][ info ] [ DB ] INIT mysql
+info
+[2019-09-22T17:15:01+08:00][ sql ] [ DB ] CONNECT:[ UseTime:1.164304s ] mysql:host=llzlovesh.top;dbname=test;charset=utf8
+sql
+[2019-09-22T17:15:01+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `daka_holiday` [ RunTime:0.100982s ]
+sql
+[2019-09-22T17:15:01+08:00][ sql ] [ SQL ] SELECT `holiday` FROM `daka_holiday` WHERE  `request_date` = '2019-09' [ RunTime:0.097361s ]
+sql
+[2019-09-22T17:15:01+08:00][ error ] [8]Undefined index: date[/Users/liuluzheng/PhpstormProjects/tp5.1/application/index/service/DaKaService.php:64]
+error
+[2019-09-22T17:15:34+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T17:15:34+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T17:15:34+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T17:15:34+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T17:15:34+08:00][ info ] [ DB ] INIT mysql
+info
+[2019-09-22T17:15:34+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.166638s ] mysql:host=llzlovesh.top;dbname=test;charset=utf8
+sql
+[2019-09-22T17:15:34+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `daka_holiday` [ RunTime:0.101066s ]
+sql
+[2019-09-22T17:15:34+08:00][ sql ] [ SQL ] SELECT `holiday` FROM `daka_holiday` WHERE  `request_date` = '2019-09' [ RunTime:0.098730s ]
+sql
+[2019-09-22T17:15:35+08:00][ error ] [8]Undefined index: date[/Users/liuluzheng/PhpstormProjects/tp5.1/application/index/service/DaKaService.php:64]
+error
+[2019-09-22T17:16:28+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T17:16:28+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T17:16:28+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T17:16:28+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T17:16:28+08:00][ info ] [ DB ] INIT mysql
+info
+[2019-09-22T17:16:28+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.133481s ] mysql:host=llzlovesh.top;dbname=test;charset=utf8
+sql
+[2019-09-22T17:16:28+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `daka_holiday` [ RunTime:0.098869s ]
+sql
+[2019-09-22T17:16:28+08:00][ sql ] [ SQL ] SELECT `holiday` FROM `daka_holiday` WHERE  `request_date` = '2019-09' [ RunTime:0.098647s ]
+sql
+[2019-09-22T17:16:29+08:00][ error ] [8]Undefined index: date[/Users/liuluzheng/PhpstormProjects/tp5.1/application/index/service/DaKaService.php:65]
+error
+[2019-09-22T17:18:27+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T17:18:27+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T17:18:27+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T17:18:27+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T17:18:27+08:00][ info ] [ DB ] INIT mysql
+info
+[2019-09-22T17:18:27+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.134838s ] mysql:host=llzlovesh.top;dbname=test;charset=utf8
+sql
+[2019-09-22T17:18:27+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `daka_holiday` [ RunTime:0.098990s ]
+sql
+[2019-09-22T17:18:28+08:00][ sql ] [ SQL ] SELECT `holiday` FROM `daka_holiday` WHERE  `request_date` = '2019-09' [ RunTime:0.099150s ]
+sql
+[2019-09-22T17:18:28+08:00][ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value[/Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/library/think/db/Connection.php:764]
+error
+[2019-09-22T17:18:53+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T17:18:53+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T17:18:53+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T17:18:53+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T17:18:53+08:00][ info ] [ DB ] INIT mysql
+info
+[2019-09-22T17:18:54+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.132169s ] mysql:host=llzlovesh.top;dbname=test;charset=utf8
+sql
+[2019-09-22T17:18:54+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `daka_holiday` [ RunTime:0.101356s ]
+sql
+[2019-09-22T17:18:54+08:00][ sql ] [ SQL ] SELECT `holiday` FROM `daka_holiday` WHERE  `request_date` = '2019-09' [ RunTime:0.108911s ]
+sql
+[2019-09-22T17:18:54+08:00][ sql ] [ SQL ] REPLACE INTO `daka_holiday` (`holiday` , `request_date`) VALUES ( '2019-09-13','2019-09' ) , ( '2019-09-14','2019-09' ) , ( '2019-09-15','2019-09' ) , ( '2019-10-01','2019-09' ) , ( '2019-10-02','2019-09' ) , ( '2019-10-03','2019-09' ) , ( '2019-10-04','2019-09' ) , ( '2019-10-07','2019-09' ) , ( '2019-10-05','2019-09' ) , ( '2019-10-06','2019-09' ) [ RunTime:0.098455s ]
+sql
+[2019-09-22T17:19:03+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T17:19:03+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T17:19:03+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T17:19:03+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T17:19:03+08:00][ info ] [ DB ] INIT mysql
+info
+[2019-09-22T17:19:03+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.165552s ] mysql:host=llzlovesh.top;dbname=test;charset=utf8
+sql
+[2019-09-22T17:19:03+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `daka_holiday` [ RunTime:0.101289s ]
+sql
+[2019-09-22T17:19:04+08:00][ sql ] [ SQL ] SELECT `holiday` FROM `daka_holiday` WHERE  `request_date` = '2019-09' [ RunTime:0.100012s ]
+sql
+[2019-09-22T18:22:03+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T18:22:03+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T18:22:03+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T18:22:03+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T18:22:03+08:00][ error ] [0]Fatal error: Call to undefined function 2019-09-22()[/Users/liuluzheng/PhpstormProjects/tp5.1/application/index/service/DaKaService.php:63]
+error
+[2019-09-22T18:22:52+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T18:22:52+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T18:22:52+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T18:22:52+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T18:23:35+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T18:23:35+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T18:23:35+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T18:23:35+08:00][ info ] [ PARAM ] array (
+)
+info
+[2019-09-22T18:39:16+08:00][ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+info
+[2019-09-22T18:39:16+08:00][ info ] [ ROUTE ] array (
+)
+info
+[2019-09-22T18:39:16+08:00][ info ] [ HEADER ] array (
+)
+info
+[2019-09-22T18:39:16+08:00][ info ] [ PARAM ] array (
+)
+info
