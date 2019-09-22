@@ -58,7 +58,6 @@ class DaKaService {
             $makeTime = "$date 19:$min";
         }
         $cronTime = date('Y-m-d H:i');
-        var_dump($makeTime, $cronTime);
         if ($cronTime != $makeTime) {
             die();
         }
@@ -77,12 +76,8 @@ class DaKaService {
         var_dump($date . "正常上班");
         if ($hour >= 6 && $hour <= 12) {
             var_dump($date . "上班，打卡");
-            $this->data['CardTime'] = $date . '+09:' . random_int(0, 30);
-            var_dump('生成上班打卡时间' . $this->data['CardTime']);
         } else {
             var_dump($date . "下班，打卡");
-            $this->data['CardTime'] = $date . '+19:' . random_int(0, 30);
-            var_dump('生成下班打卡时间' . $this->data['CardTime']);
         }
         $this->data['AppID'] .=  '192.168.1.'.random_int(1, 200);
         $this->curlDaka($this->data);
