@@ -59,6 +59,7 @@ class DaKaService {
         }
         $cronTime = date('Y-m-d H:i');
         if ($cronTime != $makeTime) {
+            var_dump($cronTime, $makeTime);
             die();
         }
         var_dump("打卡时间" . date('Y-m-d H:i:s'));
