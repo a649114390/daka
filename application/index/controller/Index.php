@@ -1,6 +1,7 @@
 <?php
 namespace app\index\controller;
 
+use app\index\service\DaKaService;
 use think\Db;
 use think\Validate;
 
@@ -40,7 +41,8 @@ class Index
 
 
     public function daka() {
-
+        $service = new DaKaService();
+        $service->run();
 
     }
 }
