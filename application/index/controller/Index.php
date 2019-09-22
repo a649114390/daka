@@ -37,4 +37,10 @@ class Index
     {
         return 'hello,' . $name;
     }
+
+
+    public function daka() {
+
+
+    }
 }
