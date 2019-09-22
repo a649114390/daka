@@ -1,0 +1,42 @@
+---------------------------------------------------------------
+[2019-09-16T16:06:41+08:00] 127.0.0.1 GET localhost/
+[运行时间：0.156705s] [吞吐率：6.38req/s] [内存消耗：545.95kb] [文件加载：64]
+[ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.1.1770966915.1563332832',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E6%89%8B%E6%9C%BA%E5%9B%BE%E7%89%87%20%20%E7%BE%8E%E5%A5%B3&step_word=&hs=0&pn=44&spn=0&di=106820&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=738443424%2C735657710&os=2290745358%2C2923673895&simid=3226952770%2C3740239822&adpicid=0&lpn=0&ln=637&fr=&fmq=1568619705815_R&fm=result&ic=0&s=undefined&hd=0&latest=0&copyright=0&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=15&oriquery=&objurl=http%3A%2F%2Fimg.kutoo8.com%2Fupload%2Fthumb%2F383779%2F9fe900d513afc974e8a990ccdd810946_228x342.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bh7p55b_z%26e3Bv54AzdH3Ff3AzdH3F4jtgeAzdH3F4xAzdH3Fst7swgAzdH3Fd9_z%26e3Bip4s&gsm=&rpstart=0&rpnum=0&islist=&querylist=&force=undefined',
+  'sec-fetch-site' => 'cross-site',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-09-16T16:06:44+08:00] 127.0.0.1 GET localhost/
+[运行时间：0.003938s] [吞吐率：253.92req/s] [内存消耗：346.26kb] [文件加载：64]
+[ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.1.1770966915.1563332832',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E6%89%8B%E6%9C%BA%E5%9B%BE%E7%89%87%20%20%E7%BE%8E%E5%A5%B3&step_word=&hs=0&pn=30&spn=0&di=49840&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=1281891489%2C4067684044&os=758786465%2C4137226835&simid=4202523284%2C691111572&adpicid=0&lpn=0&ln=637&fr=&fmq=1568619705815_R&fm=result&ic=0&s=undefined&hd=0&latest=0&copyright=0&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=15&oriquery=&objurl=http%3A%2F%2Fbbs-fd.zol-img.com.cn%2Ft_s800x5000%2Fg4%2FM03%2F05%2F03%2FCg-4WVFJjcGIdQw8AAObZuZMgQYAAGUIAGiYO4AA5t-763.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Ff3kkf_z%26e3Bz5s_z%26e3Bv54_z%26e3BvgAzdH3F8m8AzdH3F0_8malb0c_7t1_zzsvw1_z%26e3Bip4s&gsm=&rpstart=0&rpnum=0&islist=&querylist=&force=undefined',
+  'sec-fetch-site' => 'cross-site',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)

@@ -1,0 +1,8 @@
+---------------------------------------------------------------
+[2019-08-15T18:48:50+08:00] 127.0.0.1 GET localhost/tp5/public/
+[运行时间：0.069566s] [吞吐率：14.37req/s] [内存消耗：445.89kb] [文件加载：57]
+[ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-08-15T18:48:58+08:00] 127.0.0.1 GET localhost/slb/public/
+[运行时间：0.006351s] [吞吐率：157.46req/s] [内存消耗：246.97kb] [文件加载：57]
+[ info ] [ LANG ] /Users/liuluzheng/PhpstormProjects/tp5.1/thinkphp/lang/zh-cn.php
