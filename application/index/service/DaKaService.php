@@ -46,6 +46,11 @@ class DaKaService {
     public function __construct() {
         $date = date('Y-m-d');
         $hour = date('H');
+        $w = date('w', strtotime($date));
+        if($w==6 || $w == 0){
+            var_dump($date . '周末，跳过');
+            die();
+        }
         list($year, $month, $day) = explode('-', $date);
         if ($hour >= 6 && $hour <= 12) {
             $min = $day +2;
@@ -60,7 +65,7 @@ class DaKaService {
         $cronTime = date('Y-m-d H:i');
         if ($cronTime != $makeTime) {
             var_dump($cronTime, $makeTime);
-            die();
+//            die();
         }
         var_dump("打卡时间" . date('Y-m-d H:i:s'));
     }
@@ -74,14 +79,13 @@ class DaKaService {
             var_dump($date . "这天是假期不打卡，退出");
             die();
         }
-        var_dump($date . "正常上班");
         if ($hour >= 6 && $hour <= 12) {
             var_dump($date . "上班，打卡");
         } else {
             var_dump($date . "下班，打卡");
         }
         $this->data['AppID'] .=  '192.168.1.'.random_int(1, 200);
-        $this->curlDaka($this->data);
+//        $this->curlDaka($this->data);
 
 
     }
@@ -90,12 +94,12 @@ class DaKaService {
     public function getHoliday($year, $month) {
         $holidayModel = new DakaHoliday();
         $holidayListByDb = $holidayModel::where(['request_date' => date('Y-m')])->column('holiday');
+        var_dump($holidayListByDb);
         if (!empty($holidayListByDb)) {
             if (in_array(date('Y-m-d'), $holidayListByDb)) {
-                var_dump(date('Y-m-d') . "这天是假期不打卡，退出");
+
                 return true;
             }
-            var_dump(date('Y-m-d') . "正常上班");
             return false;
         }
         $holidayFlag = false;
