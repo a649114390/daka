@@ -43,7 +43,7 @@ class DaKaService {
 //    ];
 
 
-    public function __construct() {
+    public function init() {
         $date = date('Y-m-d');
         $hour = date('H');
         $w = date('w', strtotime($date));
@@ -65,12 +65,14 @@ class DaKaService {
         $cronTime = date('Y-m-d H:i');
         if ($cronTime != $makeTime) {
             var_dump($cronTime, $makeTime);
-//            die();
+            var_dump("预想时间不一致，停止打卡");
+            die();
         }
         var_dump("打卡时间" . date('Y-m-d H:i:s'));
     }
 
     public function run() {
+        $this->init();
         list($hour, $min, $sec) = explode(':', date('H:i:s'));
         $date = date('Y-m-d');
         list($year, $month, $day) = explode('-', $date);
