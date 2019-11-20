@@ -85,7 +85,7 @@ class DaKaService {
             var_dump($date . "下班，打卡");
         }
         $this->data['AppID'] .=  '192.168.1.'.random_int(1, 200);
-        $this->curlDaka($this->data);
+//        $this->curlDaka($this->data);
 
 
     }
