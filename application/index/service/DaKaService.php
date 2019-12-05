@@ -16,12 +16,12 @@ class DaKaService {
         'ValidYN'      => 'Y',
         'AppToken'     => 66778899,
         'CardTime'     => '2019-09-17+09:04',
-        'Address'      => '潮州路办公室考勤点',
-        'AppID'        => 'A|MI+8+SE-9|2.2.4|11584|862860041542790|',
+        'Address'      => '总部真北路办公考勤点',
+        'AppID'        => 'A|MI 8 SE-9|2.2.4|11584|862860041542790|',
         'StaffID'      => '796996',
         'UserID'       => '11584',
-        'Dimension'    => '31.265277',
-        'Longitude'    => '121.414143',
+        'Dimension'    => '31.258829',
+        'Longitude'    => '121.398896',
         'MobileID'     => '862860041542790',
         'CardRemarkSZ' => ''
     ];
@@ -53,16 +53,19 @@ class DaKaService {
         }
         list($year, $month, $day) = explode('-', $date);
         if ($hour >= 6 && $hour <= 12) {
-            $min = $day +2;
+            $min = $day + 2;
+            $min >= 10 ?: $min = '0'.$min;
             $this->data['CardTime'] = $date . '+09:' . $min;
             $makeTime = "$date 09:$min";
 
         } else {
             $min = $day ;
+            $min >= 10 ?: $min = '0'.$min;
             $this->data['CardTime'] = $date . '+19:' . $min;
             $makeTime = "$date 19:$min";
         }
         $cronTime = date('Y-m-d H:i');
+        $makeTime = date('Y-m-d H:i', strtotime($makeTime));
         if ($cronTime != $makeTime) {
             var_dump($cronTime, $makeTime);
             var_dump("预想时间不一致，停止打卡");
