@@ -60,7 +60,6 @@ class DaKaService {
 
         } else {
             $min = $day ;
-            $min >= 10 ?: $min = '0'.$min;
             $this->data['CardTime'] = $date . '+19:' . $min;
             $makeTime = "$date 19:$min";
         }
