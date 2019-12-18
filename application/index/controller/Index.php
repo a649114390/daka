@@ -62,8 +62,9 @@ class Index
             var_dump($date . '周末，跳过');
             die();
         }
-        if ($hm !== '22:30') {
-            var_dump('不是期望时间不提示');
+        $wishTime = '22:36';
+        if ($hm !== $wishTime) {
+            var_dump('不是期望时间不提示'.$wishTime);
             die();
         }
         $riBao = new RiBaoService();
