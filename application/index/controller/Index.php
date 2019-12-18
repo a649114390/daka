@@ -51,7 +51,7 @@ class Index
         $data = [
             'msgtype' => 'text',
             'text'    => [
-                'content' => '汇报日报了各位大佬(已写的请忽略)'
+                'content' => '@所有人 汇报日报了各位大佬(已写的请忽略)'
             ]
         ];
         $date = date('Y-m-d');
@@ -62,7 +62,7 @@ class Index
             var_dump($date . '周末，跳过');
             die();
         }
-        $wishTime = '23:40';
+        $wishTime = '22:00';
         if ($hm !== $wishTime) {
             var_dump('不是期望时间不提示'.$wishTime);
             die();
