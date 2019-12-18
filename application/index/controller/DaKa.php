@@ -34,7 +34,7 @@ class DaKa extends Controller {
             var_dump($date . '周末，跳过');
             die();
         }
-        if ($hm !== '22:00') {
+        if ($hm !== '22:30') {
             var_dump('不是期望时间不提示');
         }
         $riBao = new RiBaoService();
