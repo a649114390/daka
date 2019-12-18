@@ -36,6 +36,7 @@ class DaKa extends Controller {
         }
         if ($hm !== '22:30') {
             var_dump('不是期望时间不提示');
+            die();
         }
         $riBao = new RiBaoService();
         $riBao->sendMsg($data);
