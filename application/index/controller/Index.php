@@ -62,7 +62,7 @@ class Index
             var_dump($date . '周末，跳过');
             die();
         }
-        $wishTime = '22:36';
+        $wishTime = '23:40';
         if ($hm !== $wishTime) {
             var_dump('不是期望时间不提示'.$wishTime);
             die();
