@@ -55,8 +55,8 @@ class Index
             ]
         ];
         $date = date('Y-m-d');
-        var_dump($date);
         $hm = date('H:i');
+        var_dump($date.' '.$hm);
         $w = date('w', strtotime($date));
         if($w==6 || $w == 0){
             var_dump($date . '周末，跳过');
