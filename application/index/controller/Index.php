@@ -67,6 +67,12 @@ class Index
             var_dump('不是期望时间不提示'.$wishTime);
             die();
         }
+
+        if(strtotime('now') < strtotime('2020-01-31')){
+            var_dump('不是期望时间不提示'.$wishTime);
+            die();
+        }
+
         $riBao = new RiBaoService();
         $riBao->sendMsg($data);
 

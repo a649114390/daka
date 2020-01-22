@@ -44,6 +44,8 @@ class DaKaService {
 
 
     public function init() {
+
+
         $date = date('Y-m-d');
         $hour = date('H');
         $w = date('w', strtotime($date));
@@ -51,6 +53,12 @@ class DaKaService {
             var_dump($date . '周末，跳过');
             die();
         }
+
+        if($date < '2020-01-31' && $date > '2020-01-23'){
+            var_dump($date . '放假时间');
+            die();
+        }
+
         list($year, $month, $day) = explode('-', $date);
         if ($hour >= 6 && $hour <= 12) {
             $min = $day + 2;
