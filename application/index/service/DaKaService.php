@@ -86,16 +86,16 @@ class DaKaService {
         list($hour, $min, $sec) = explode(':', date('H:i:s'));
         $date = date('Y-m-d');
         list($year, $month, $day) = explode('-', $date);
-        try {
-            $isHoliday = $this->getHoliday($year, (int)$month);
-            if ($isHoliday) {
-                var_dump($date . "这天是假期不打卡，退出");
-                die();
-            }
-        } catch (\Exception $e) {
-            var_dump('假期接口出错');
-            var_dump($e->getMessage());
-        }
+//        try {
+//            $isHoliday = $this->getHoliday($year, (int)$month);
+//            if ($isHoliday) {
+//                var_dump($date . "这天是假期不打卡，退出");
+//                die();
+//            }
+//        } catch (\Exception $e) {
+//            var_dump('假期接口出错');
+//            var_dump($e->getMessage());
+//        }
 
         if ($hour >= 6 && $hour <= 12) {
             var_dump($date . "上班，打卡");
